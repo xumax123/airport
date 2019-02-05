@@ -1,0 +1,21 @@
+{
+	"appInfo":{
+		"androidApp":{
+			"changeLog":"",
+			"downloadURL":"https://xumax123.github.io/airport/app.apk",
+			"version":"1.1.0"
+		},
+		"iosApp":{
+			"changeLog":"",
+			"downloadURL":"https://xumax123.github.io/airport/app.ipa",
+			"version":"1.1.0"
+		}
+	},
+	"resourceInfo":{
+		"appVersion":"",
+		"downloadURL":"https://xumax123.github.io/airport/www.zip",
+		"indexURL":"/airport/mainActivity.w",
+		"mode":"1",
+		"version":"v-NFzyIj-zh_CN-"
+	}
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cqMNVfe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqMNVfe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/panel/panel,">
+  <style>.airportInfo.cqMNVfe{border-width: 6px; border-color: rgb(51, 153, 243); border-style: double; margin: 6px; padding: 8px; border-radius: 15px} .a319320321.cqMNVfe{font-weight: bold; color: white; background-color: red}</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqMNVfe" class="cqMNVfe"></div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&#34;type&#34;:&#34;OK&#34;}" __cid="cqMNVfe" class="cqMNVfe">
+    <div class="x-modal-overlay cqMNVfe" __cid="cqMNVfe"></div>
+    <div class="x-modal cqMNVfe" __cid="cqMNVfe">
+      <div class="x-modal-inner cqMNVfe" __cid="cqMNVfe">
+        <div class="x-modal-title cqMNVfe" __cid="cqMNVfe"></div>
+        <div class="x-modal-text cqMNVfe" __cid="cqMNVfe"></div>
+        <input class="x-modal-prompt-input cqMNVfe" type="text" __cid="cqMNVfe">
+      </div>
+      <div class="x-modal-buttons cqMNVfe" __cid="cqMNVfe">
+        <a class="x-modal-button x-modal-button-bold OK cqMNVfe" value="ok" __cid="cqMNVfe">确定</a>
+        <a class="x-modal-button x-modal-button-bold Yes cqMNVfe" value="yes" __cid="cqMNVfe">是</a>
+        <a class="x-modal-button x-modal-button-bold No cqMNVfe" value="no" __cid="cqMNVfe">否</a>
+        <a class="x-modal-button x-modal-button-bold Cancel cqMNVfe" value="cancel" __cid="cqMNVfe">取消</a>
+      </div>
+    </div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pceAvyEr-iosstatusbar cqMNVfe" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqMNVfe"> 
+    <div class="x-panel-top cqMNVfe" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqMNVfe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cqMNVfe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;✈ 机场信息查询 ✈&#34;}" __cid="cqMNVfe"> 
+        <div class="x-titlebar-left cqMNVfe" __cid="cqMNVfe"></div>  
+        <div class="x-titlebar-title cqMNVfe" __cid="cqMNVfe">✈ 机场信息查询 ✈</div>  
+        <div class="x-titlebar-right  cqMNVfe" __cid="cqMNVfe">
+          <div class="empty cqMNVfe" __cid="cqMNVfe"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cqMNVfe" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqMNVfe">
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cqMNVfe" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqMNVfe"> 
+        <div class="x-col cqMNVfe" xid="col2" __cid="cqMNVfe">
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cqMNVfe" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;placeHolder&#34;:&#34;机场名、三四字代码&#34;}" __cid="cqMNVfe">
+        </div>  
+        <div class="x-col x-col-fixed cqMNVfe" xid="col5" style="width:auto;" __cid="cqMNVfe">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cqMNVfe" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&#34;icon&#34;:&#34;linear linear-magnifier&#34;,&#34;label&#34;:&#34;查询&#34;}" __cid="cqMNVfe"> 
+            <i xid="i5" class="linear linear-magnifier cqMNVfe" __cid="cqMNVfe"></i>  
+            <span xid="span5" __cid="cqMNVfe" class="cqMNVfe">查询</span>
+          </a>
+        </div>  
+        <div class="x-col x-col-fixed cqMNVfe" xid="col6" style="width:auto;" __cid="cqMNVfe">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cqMNVfe" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&#34;icon&#34;:&#34;linear linear-trash&#34;,&#34;label&#34;:&#34;清除&#34;}" __cid="cqMNVfe"> 
+            <i xid="i6" class="linear linear-trash cqMNVfe" __cid="cqMNVfe"></i>  
+            <span xid="span6" __cid="cqMNVfe" class="cqMNVfe">清除</span>
+          </a>
+        </div>
+      </div>  
+      <div style="text-align:center;color:red" __cid="cqMNVfe" class="cqMNVfe">所查询信息，仅供参考，不能做为决策的依据</div>  
+      <div id="airportDisplay" __cid="cqMNVfe" class="cqMNVfe"></div> 
+    </div>  
+    <style __cid="cqMNVfe" class="cqMNVfe">.x-panel.pceAvyEr-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pceAvyEr-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pceAvyEr-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pceAvyEr-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceAvyEr-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pceAvyEr-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceAvyEr-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceAvyEr-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceAvyEr-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
