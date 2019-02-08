@@ -1,23 +1,18 @@
+<!DOCTYPE html>
 <html>
-	<head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-	
-	</head>
-	<body style="color:gray;margin:0px;text-align:center;padding-top:20%">
-		正在努力加载中......
-		<script type='text/javascript'>
-			var url = 'airport/mainActivity.w?language=zh_CN&skin=';
-			var search = window.location.search;
-			if (search){
-				if (url.indexOf("?") != -1){
-					url += "&";
-				}else{
-					url += "?";
-				}
-				url += search.substr(1) + window.location.hash;
-			}
-			window.location.href= url;
-		</script>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>机场信息查询下载</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>请点击下载安装</h2>
+    <div>【机场信息查询APP】</div>
+    <a href="app.apk">
+        <img src="download.jpg" width="100" height="100">
+    </a>
+</body>
 </html>
